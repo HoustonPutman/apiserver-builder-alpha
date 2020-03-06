@@ -33,7 +33,7 @@ apiserver-boot create group --group insect
 
 # Create a new version "v1beta" of group "insect"
 # Will automatically create group if it does not exist
-apiserver-boot create group --group insect --version v1beta1`,
+apiserver-boot create version --group insect --version v1beta1`,
 	Run: RunCreate,
 }
 
